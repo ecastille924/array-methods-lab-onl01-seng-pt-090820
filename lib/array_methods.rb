@@ -1,6 +1,5 @@
 def using_include(array, element)
-  shoes = ["boots", "wellies", "skeakers"]
-  shoes.include?("pants")
+  array.include?(element)
 
 end
 
